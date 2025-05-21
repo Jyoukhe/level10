@@ -21,3 +21,7 @@ char * substringSearch2D(char *target, char (*arr)[COLS], int size);
 void freeAA(char ** arr, int size);
 
 void free2D(char (*arr)[COLS]);
+
+void trim(char userInput[]);
+
+int stringLength(char userInput[]);

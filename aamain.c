@@ -16,7 +16,7 @@ int main(int argc, char *argv[])
 	int lineCount;
 	char **lines = loadFileAA(argv[1], &lineCount);
 	
-	printf("File loaded.\n");
+	printf("\nFile loaded.\n");
 	
 	while(1)
 	{
